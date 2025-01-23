@@ -1,0 +1,13 @@
+train: /home/tobi/python-opencv/datasets/training/train/images
+val: /home/tobi/python-opencv/datasets/training/valid/images
+test: /home/tobi/python-opencv/datasets/training/test/images
+
+nc: 1
+names: ['rubber-duck']
+
+roboflow:
+  workspace: patos
+  project: rubber-ducks-pizbk
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/patos/rubber-ducks-pizbk/dataset/1
